@@ -1,0 +1,39 @@
+
+.scroll{
+  position: relative;
+  background: #f4f4f4;
+}
+
+/* note, 'height' is set by the script */
+.scroll .rail{
+  background: transparent;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 20px;
+}
+
+/* note, 'top' is set by the script */
+.scroll .rail .grip{
+  background: #c00;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 6;
+  opacity: 0;
+  border-radius: 20px;  
+  -webkit-transition: opacity .3s;
+     -moz-transition: opacity .3s;
+      -ms-transition: opacity .3s;
+          transition: opacity .3s;                   
+}
+
+.scroll.scrolling .grip, .scroll:hover .grip{
+  opacity: 0.4;
+}
+  
+.scroll.disabled .rail{
+  display: none;  
+}
+
