@@ -1,7 +1,7 @@
 
 ## Don't use it, this is work in progress! ##
 
-## [DEMO](http://dev.digitalnature.eu/xscroll/) ##
+## [DEMO](http://dev.digitalnature.eu/xscroll/tests/) ##
 
 ## Requirements ##
 
@@ -15,7 +15,7 @@ Basic usage:
        
     $('.content-to-scroll').xScroll();
 
-Similar plugins:
+## Similar plugins ##
 
 - [slimScroll](https://github.com/rochal/jQuery-slimScroll)
 - [nanoScrollerJS](https://github.com/jamesflorentino/nanoScrollerJS)
